@@ -1,0 +1,4 @@
+express.static(root, folderName)
+This is a built-in middleware function in Express. It serves static files and is based on serve-static.
+
+The root argument specifies the root directory from which to serve static assets. The function determines the file to serve by combining req.url with the provided root directory.
